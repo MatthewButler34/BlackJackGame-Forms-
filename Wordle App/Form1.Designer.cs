@@ -60,25 +60,26 @@
             this.pasteToolStripButton = new System.Windows.Forms.ToolStripButton();
             this.toolStripSeparator7 = new System.Windows.Forms.ToolStripSeparator();
             this.helpToolStripButton = new System.Windows.Forms.ToolStripButton();
+            this.toolStripButton1 = new System.Windows.Forms.ToolStripButton();
             this.statusStrip1 = new System.Windows.Forms.StatusStrip();
             this.toolStripStatusLabelGenerations = new System.Windows.Forms.ToolStripStatusLabel();
             this.graphicsPanel1 = new BlackJackApp.GraphicsPanel();
             this.oneCard1 = new System.Windows.Forms.TextBox();
-            this.twoCards1 = new System.Windows.Forms.TextBox();
             this.twoCards2 = new System.Windows.Forms.TextBox();
-            this.threeCard1 = new System.Windows.Forms.TextBox();
-            this.threeCard2 = new System.Windows.Forms.TextBox();
+            this.twoCards1 = new System.Windows.Forms.TextBox();
             this.threeCard3 = new System.Windows.Forms.TextBox();
-            this.fourCard1 = new System.Windows.Forms.TextBox();
-            this.fourCard2 = new System.Windows.Forms.TextBox();
-            this.fourCard3 = new System.Windows.Forms.TextBox();
+            this.threeCard2 = new System.Windows.Forms.TextBox();
+            this.threeCard1 = new System.Windows.Forms.TextBox();
             this.fourCard4 = new System.Windows.Forms.TextBox();
-            this.toolStripButton1 = new System.Windows.Forms.ToolStripButton();
-            this.fiveCard1 = new System.Windows.Forms.TextBox();
-            this.fiveCard2 = new System.Windows.Forms.TextBox();
-            this.fiveCard4 = new System.Windows.Forms.TextBox();
-            this.fiveCard5 = new System.Windows.Forms.TextBox();
+            this.fourCard3 = new System.Windows.Forms.TextBox();
+            this.fourCard2 = new System.Windows.Forms.TextBox();
+            this.fourCard1 = new System.Windows.Forms.TextBox();
             this.fiveCard3 = new System.Windows.Forms.TextBox();
+            this.fiveCard5 = new System.Windows.Forms.TextBox();
+            this.fiveCard4 = new System.Windows.Forms.TextBox();
+            this.fiveCard2 = new System.Windows.Forms.TextBox();
+            this.fiveCard1 = new System.Windows.Forms.TextBox();
+            this.textBox1 = new System.Windows.Forms.TextBox();
             this.menuStrip1.SuspendLayout();
             this.toolStrip1.SuspendLayout();
             this.statusStrip1.SuspendLayout();
@@ -87,13 +88,15 @@
             // 
             // menuStrip1
             // 
+            this.menuStrip1.GripMargin = new System.Windows.Forms.Padding(2, 2, 0, 2);
+            this.menuStrip1.ImageScalingSize = new System.Drawing.Size(24, 24);
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.fileToolStripMenuItem,
             this.toolsToolStripMenuItem,
             this.helpToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(1034, 24);
+            this.menuStrip1.Size = new System.Drawing.Size(1034, 33);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -111,7 +114,7 @@
             this.toolStripSeparator2,
             this.exitToolStripMenuItem});
             this.fileToolStripMenuItem.Name = "fileToolStripMenuItem";
-            this.fileToolStripMenuItem.Size = new System.Drawing.Size(37, 20);
+            this.fileToolStripMenuItem.Size = new System.Drawing.Size(54, 29);
             this.fileToolStripMenuItem.Text = "&File";
             // 
             // newToolStripMenuItem
@@ -120,7 +123,7 @@
             this.newToolStripMenuItem.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.newToolStripMenuItem.Name = "newToolStripMenuItem";
             this.newToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.N)));
-            this.newToolStripMenuItem.Size = new System.Drawing.Size(146, 22);
+            this.newToolStripMenuItem.Size = new System.Drawing.Size(223, 34);
             this.newToolStripMenuItem.Text = "&New";
             // 
             // openToolStripMenuItem
@@ -129,13 +132,13 @@
             this.openToolStripMenuItem.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.openToolStripMenuItem.Name = "openToolStripMenuItem";
             this.openToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.O)));
-            this.openToolStripMenuItem.Size = new System.Drawing.Size(146, 22);
+            this.openToolStripMenuItem.Size = new System.Drawing.Size(223, 34);
             this.openToolStripMenuItem.Text = "&Open";
             // 
             // toolStripSeparator
             // 
             this.toolStripSeparator.Name = "toolStripSeparator";
-            this.toolStripSeparator.Size = new System.Drawing.Size(143, 6);
+            this.toolStripSeparator.Size = new System.Drawing.Size(220, 6);
             // 
             // saveToolStripMenuItem
             // 
@@ -143,19 +146,19 @@
             this.saveToolStripMenuItem.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.saveToolStripMenuItem.Name = "saveToolStripMenuItem";
             this.saveToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.S)));
-            this.saveToolStripMenuItem.Size = new System.Drawing.Size(146, 22);
+            this.saveToolStripMenuItem.Size = new System.Drawing.Size(223, 34);
             this.saveToolStripMenuItem.Text = "&Save";
             // 
             // saveAsToolStripMenuItem
             // 
             this.saveAsToolStripMenuItem.Name = "saveAsToolStripMenuItem";
-            this.saveAsToolStripMenuItem.Size = new System.Drawing.Size(146, 22);
+            this.saveAsToolStripMenuItem.Size = new System.Drawing.Size(223, 34);
             this.saveAsToolStripMenuItem.Text = "Save &As";
             // 
             // toolStripSeparator1
             // 
             this.toolStripSeparator1.Name = "toolStripSeparator1";
-            this.toolStripSeparator1.Size = new System.Drawing.Size(143, 6);
+            this.toolStripSeparator1.Size = new System.Drawing.Size(220, 6);
             // 
             // printToolStripMenuItem
             // 
@@ -163,7 +166,7 @@
             this.printToolStripMenuItem.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.printToolStripMenuItem.Name = "printToolStripMenuItem";
             this.printToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.P)));
-            this.printToolStripMenuItem.Size = new System.Drawing.Size(146, 22);
+            this.printToolStripMenuItem.Size = new System.Drawing.Size(223, 34);
             this.printToolStripMenuItem.Text = "&Print";
             // 
             // printPreviewToolStripMenuItem
@@ -171,18 +174,18 @@
             this.printPreviewToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("printPreviewToolStripMenuItem.Image")));
             this.printPreviewToolStripMenuItem.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.printPreviewToolStripMenuItem.Name = "printPreviewToolStripMenuItem";
-            this.printPreviewToolStripMenuItem.Size = new System.Drawing.Size(146, 22);
+            this.printPreviewToolStripMenuItem.Size = new System.Drawing.Size(223, 34);
             this.printPreviewToolStripMenuItem.Text = "Print Pre&view";
             // 
             // toolStripSeparator2
             // 
             this.toolStripSeparator2.Name = "toolStripSeparator2";
-            this.toolStripSeparator2.Size = new System.Drawing.Size(143, 6);
+            this.toolStripSeparator2.Size = new System.Drawing.Size(220, 6);
             // 
             // exitToolStripMenuItem
             // 
             this.exitToolStripMenuItem.Name = "exitToolStripMenuItem";
-            this.exitToolStripMenuItem.Size = new System.Drawing.Size(146, 22);
+            this.exitToolStripMenuItem.Size = new System.Drawing.Size(223, 34);
             this.exitToolStripMenuItem.Text = "E&xit";
             // 
             // toolsToolStripMenuItem
@@ -191,19 +194,19 @@
             this.customizeToolStripMenuItem,
             this.optionsToolStripMenuItem});
             this.toolsToolStripMenuItem.Name = "toolsToolStripMenuItem";
-            this.toolsToolStripMenuItem.Size = new System.Drawing.Size(46, 20);
+            this.toolsToolStripMenuItem.Size = new System.Drawing.Size(69, 29);
             this.toolsToolStripMenuItem.Text = "&Tools";
             // 
             // customizeToolStripMenuItem
             // 
             this.customizeToolStripMenuItem.Name = "customizeToolStripMenuItem";
-            this.customizeToolStripMenuItem.Size = new System.Drawing.Size(130, 22);
+            this.customizeToolStripMenuItem.Size = new System.Drawing.Size(197, 34);
             this.customizeToolStripMenuItem.Text = "&Customize";
             // 
             // optionsToolStripMenuItem
             // 
             this.optionsToolStripMenuItem.Name = "optionsToolStripMenuItem";
-            this.optionsToolStripMenuItem.Size = new System.Drawing.Size(130, 22);
+            this.optionsToolStripMenuItem.Size = new System.Drawing.Size(197, 34);
             this.optionsToolStripMenuItem.Text = "&Options";
             // 
             // helpToolStripMenuItem
@@ -215,40 +218,41 @@
             this.toolStripSeparator5,
             this.aboutToolStripMenuItem});
             this.helpToolStripMenuItem.Name = "helpToolStripMenuItem";
-            this.helpToolStripMenuItem.Size = new System.Drawing.Size(44, 20);
+            this.helpToolStripMenuItem.Size = new System.Drawing.Size(65, 29);
             this.helpToolStripMenuItem.Text = "&Help";
             // 
             // contentsToolStripMenuItem
             // 
             this.contentsToolStripMenuItem.Name = "contentsToolStripMenuItem";
-            this.contentsToolStripMenuItem.Size = new System.Drawing.Size(122, 22);
+            this.contentsToolStripMenuItem.Size = new System.Drawing.Size(185, 34);
             this.contentsToolStripMenuItem.Text = "&Contents";
             // 
             // indexToolStripMenuItem
             // 
             this.indexToolStripMenuItem.Name = "indexToolStripMenuItem";
-            this.indexToolStripMenuItem.Size = new System.Drawing.Size(122, 22);
+            this.indexToolStripMenuItem.Size = new System.Drawing.Size(185, 34);
             this.indexToolStripMenuItem.Text = "&Index";
             // 
             // searchToolStripMenuItem
             // 
             this.searchToolStripMenuItem.Name = "searchToolStripMenuItem";
-            this.searchToolStripMenuItem.Size = new System.Drawing.Size(122, 22);
+            this.searchToolStripMenuItem.Size = new System.Drawing.Size(185, 34);
             this.searchToolStripMenuItem.Text = "&Search";
             // 
             // toolStripSeparator5
             // 
             this.toolStripSeparator5.Name = "toolStripSeparator5";
-            this.toolStripSeparator5.Size = new System.Drawing.Size(119, 6);
+            this.toolStripSeparator5.Size = new System.Drawing.Size(182, 6);
             // 
             // aboutToolStripMenuItem
             // 
             this.aboutToolStripMenuItem.Name = "aboutToolStripMenuItem";
-            this.aboutToolStripMenuItem.Size = new System.Drawing.Size(122, 22);
+            this.aboutToolStripMenuItem.Size = new System.Drawing.Size(185, 34);
             this.aboutToolStripMenuItem.Text = "&About...";
             // 
             // toolStrip1
             // 
+            this.toolStrip1.ImageScalingSize = new System.Drawing.Size(24, 24);
             this.toolStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.newToolStripButton,
             this.openToolStripButton,
@@ -260,9 +264,9 @@
             this.toolStripSeparator7,
             this.helpToolStripButton,
             this.toolStripButton1});
-            this.toolStrip1.Location = new System.Drawing.Point(0, 24);
+            this.toolStrip1.Location = new System.Drawing.Point(0, 33);
             this.toolStrip1.Name = "toolStrip1";
-            this.toolStrip1.Size = new System.Drawing.Size(1034, 25);
+            this.toolStrip1.Size = new System.Drawing.Size(1034, 33);
             this.toolStrip1.TabIndex = 1;
             this.toolStrip1.Text = "toolStrip1";
             // 
@@ -272,7 +276,7 @@
             this.newToolStripButton.Image = ((System.Drawing.Image)(resources.GetObject("newToolStripButton.Image")));
             this.newToolStripButton.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.newToolStripButton.Name = "newToolStripButton";
-            this.newToolStripButton.Size = new System.Drawing.Size(23, 22);
+            this.newToolStripButton.Size = new System.Drawing.Size(34, 28);
             this.newToolStripButton.Text = "&New";
             // 
             // openToolStripButton
@@ -281,7 +285,7 @@
             this.openToolStripButton.Image = ((System.Drawing.Image)(resources.GetObject("openToolStripButton.Image")));
             this.openToolStripButton.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.openToolStripButton.Name = "openToolStripButton";
-            this.openToolStripButton.Size = new System.Drawing.Size(23, 22);
+            this.openToolStripButton.Size = new System.Drawing.Size(34, 28);
             this.openToolStripButton.Text = "&Open";
             // 
             // saveToolStripButton
@@ -290,13 +294,13 @@
             this.saveToolStripButton.Image = ((System.Drawing.Image)(resources.GetObject("saveToolStripButton.Image")));
             this.saveToolStripButton.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.saveToolStripButton.Name = "saveToolStripButton";
-            this.saveToolStripButton.Size = new System.Drawing.Size(23, 22);
+            this.saveToolStripButton.Size = new System.Drawing.Size(34, 28);
             this.saveToolStripButton.Text = "&Save";
             // 
             // toolStripSeparator6
             // 
             this.toolStripSeparator6.Name = "toolStripSeparator6";
-            this.toolStripSeparator6.Size = new System.Drawing.Size(6, 25);
+            this.toolStripSeparator6.Size = new System.Drawing.Size(6, 33);
             // 
             // cutToolStripButton
             // 
@@ -304,7 +308,7 @@
             this.cutToolStripButton.Image = ((System.Drawing.Image)(resources.GetObject("cutToolStripButton.Image")));
             this.cutToolStripButton.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.cutToolStripButton.Name = "cutToolStripButton";
-            this.cutToolStripButton.Size = new System.Drawing.Size(23, 22);
+            this.cutToolStripButton.Size = new System.Drawing.Size(34, 28);
             this.cutToolStripButton.Text = "C&ut";
             // 
             // copyToolStripButton
@@ -313,7 +317,7 @@
             this.copyToolStripButton.Image = ((System.Drawing.Image)(resources.GetObject("copyToolStripButton.Image")));
             this.copyToolStripButton.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.copyToolStripButton.Name = "copyToolStripButton";
-            this.copyToolStripButton.Size = new System.Drawing.Size(23, 22);
+            this.copyToolStripButton.Size = new System.Drawing.Size(34, 28);
             this.copyToolStripButton.Text = "&Copy";
             // 
             // pasteToolStripButton
@@ -322,13 +326,13 @@
             this.pasteToolStripButton.Image = ((System.Drawing.Image)(resources.GetObject("pasteToolStripButton.Image")));
             this.pasteToolStripButton.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.pasteToolStripButton.Name = "pasteToolStripButton";
-            this.pasteToolStripButton.Size = new System.Drawing.Size(23, 22);
+            this.pasteToolStripButton.Size = new System.Drawing.Size(34, 28);
             this.pasteToolStripButton.Text = "&Paste";
             // 
             // toolStripSeparator7
             // 
             this.toolStripSeparator7.Name = "toolStripSeparator7";
-            this.toolStripSeparator7.Size = new System.Drawing.Size(6, 25);
+            this.toolStripSeparator7.Size = new System.Drawing.Size(6, 33);
             // 
             // helpToolStripButton
             // 
@@ -336,29 +340,41 @@
             this.helpToolStripButton.Image = ((System.Drawing.Image)(resources.GetObject("helpToolStripButton.Image")));
             this.helpToolStripButton.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.helpToolStripButton.Name = "helpToolStripButton";
-            this.helpToolStripButton.Size = new System.Drawing.Size(23, 22);
+            this.helpToolStripButton.Size = new System.Drawing.Size(34, 28);
             this.helpToolStripButton.Text = "He&lp";
+            // 
+            // toolStripButton1
+            // 
+            this.toolStripButton1.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.toolStripButton1.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton1.Image")));
+            this.toolStripButton1.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.toolStripButton1.Name = "toolStripButton1";
+            this.toolStripButton1.Size = new System.Drawing.Size(34, 28);
+            this.toolStripButton1.Text = "toolStripButton1";
+            this.toolStripButton1.Click += new System.EventHandler(this.toolStripButton1_Click);
             // 
             // statusStrip1
             // 
+            this.statusStrip1.ImageScalingSize = new System.Drawing.Size(24, 24);
             this.statusStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.toolStripStatusLabelGenerations});
-            this.statusStrip1.Location = new System.Drawing.Point(0, 664);
+            this.statusStrip1.Location = new System.Drawing.Point(0, 654);
             this.statusStrip1.Name = "statusStrip1";
-            this.statusStrip1.Size = new System.Drawing.Size(1034, 22);
+            this.statusStrip1.Size = new System.Drawing.Size(1034, 32);
             this.statusStrip1.TabIndex = 2;
             this.statusStrip1.Text = "statusStrip1";
             // 
             // toolStripStatusLabelGenerations
             // 
             this.toolStripStatusLabelGenerations.Name = "toolStripStatusLabelGenerations";
-            this.toolStripStatusLabelGenerations.Size = new System.Drawing.Size(90, 17);
+            this.toolStripStatusLabelGenerations.Size = new System.Drawing.Size(138, 25);
             this.toolStripStatusLabelGenerations.Text = "Generations = 0";
             // 
             // graphicsPanel1
             // 
             this.graphicsPanel1.AutoSize = true;
             this.graphicsPanel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.graphicsPanel1.Controls.Add(this.textBox1);
             this.graphicsPanel1.Controls.Add(this.oneCard1);
             this.graphicsPanel1.Controls.Add(this.twoCards2);
             this.graphicsPanel1.Controls.Add(this.twoCards1);
@@ -375,9 +391,9 @@
             this.graphicsPanel1.Controls.Add(this.fiveCard2);
             this.graphicsPanel1.Controls.Add(this.fiveCard1);
             this.graphicsPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.graphicsPanel1.Location = new System.Drawing.Point(0, 49);
+            this.graphicsPanel1.Location = new System.Drawing.Point(0, 66);
             this.graphicsPanel1.Name = "graphicsPanel1";
-            this.graphicsPanel1.Size = new System.Drawing.Size(1034, 615);
+            this.graphicsPanel1.Size = new System.Drawing.Size(1034, 588);
             this.graphicsPanel1.TabIndex = 3;
             this.graphicsPanel1.Paint += new System.Windows.Forms.PaintEventHandler(this.graphicsPanel1_Paint);
             this.graphicsPanel1.MouseClick += new System.Windows.Forms.MouseEventHandler(this.graphicsPanel1_MouseClick);
@@ -393,16 +409,6 @@
             this.oneCard1.Text = "oneCard1";
             this.oneCard1.TextChanged += new System.EventHandler(this.oneCard1_TextChanged);
             // 
-            // twoCards1
-            // 
-            this.twoCards1.Location = new System.Drawing.Point(388, 433);
-            this.twoCards1.Multiline = true;
-            this.twoCards1.Name = "twoCards1";
-            this.twoCards1.Size = new System.Drawing.Size(100, 137);
-            this.twoCards1.TabIndex = 1;
-            this.twoCards1.Text = "twoCards1";
-            this.twoCards1.Visible = false;
-            // 
             // twoCards2
             // 
             this.twoCards2.Location = new System.Drawing.Point(494, 433);
@@ -413,25 +419,15 @@
             this.twoCards2.Text = "twoCards2";
             this.twoCards2.Visible = false;
             // 
-            // threeCard1
+            // twoCards1
             // 
-            this.threeCard1.Location = new System.Drawing.Point(342, 433);
-            this.threeCard1.Multiline = true;
-            this.threeCard1.Name = "threeCard1";
-            this.threeCard1.Size = new System.Drawing.Size(100, 137);
-            this.threeCard1.TabIndex = 3;
-            this.threeCard1.Text = "threeCard1";
-            this.threeCard1.Visible = false;
-            // 
-            // threeCard2
-            // 
-            this.threeCard2.Location = new System.Drawing.Point(448, 433);
-            this.threeCard2.Multiline = true;
-            this.threeCard2.Name = "threeCard2";
-            this.threeCard2.Size = new System.Drawing.Size(100, 137);
-            this.threeCard2.TabIndex = 4;
-            this.threeCard2.Text = "threeCard2";
-            this.threeCard2.Visible = false;
+            this.twoCards1.Location = new System.Drawing.Point(388, 433);
+            this.twoCards1.Multiline = true;
+            this.twoCards1.Name = "twoCards1";
+            this.twoCards1.Size = new System.Drawing.Size(100, 137);
+            this.twoCards1.TabIndex = 1;
+            this.twoCards1.Text = "twoCards1";
+            this.twoCards1.Visible = false;
             // 
             // threeCard3
             // 
@@ -443,35 +439,25 @@
             this.threeCard3.Text = "threeCard3";
             this.threeCard3.Visible = false;
             // 
-            // fourCard1
+            // threeCard2
             // 
-            this.fourCard1.Location = new System.Drawing.Point(282, 433);
-            this.fourCard1.Multiline = true;
-            this.fourCard1.Name = "fourCard1";
-            this.fourCard1.Size = new System.Drawing.Size(100, 137);
-            this.fourCard1.TabIndex = 6;
-            this.fourCard1.Text = "fourCard1";
-            this.fourCard1.Visible = false;
+            this.threeCard2.Location = new System.Drawing.Point(448, 433);
+            this.threeCard2.Multiline = true;
+            this.threeCard2.Name = "threeCard2";
+            this.threeCard2.Size = new System.Drawing.Size(100, 137);
+            this.threeCard2.TabIndex = 4;
+            this.threeCard2.Text = "threeCard2";
+            this.threeCard2.Visible = false;
             // 
-            // fourCard2
+            // threeCard1
             // 
-            this.fourCard2.Location = new System.Drawing.Point(388, 433);
-            this.fourCard2.Multiline = true;
-            this.fourCard2.Name = "fourCard2";
-            this.fourCard2.Size = new System.Drawing.Size(100, 137);
-            this.fourCard2.TabIndex = 7;
-            this.fourCard2.Text = "fourCard2";
-            this.fourCard2.Visible = false;
-            // 
-            // fourCard3
-            // 
-            this.fourCard3.Location = new System.Drawing.Point(494, 433);
-            this.fourCard3.Multiline = true;
-            this.fourCard3.Name = "fourCard3";
-            this.fourCard3.Size = new System.Drawing.Size(100, 137);
-            this.fourCard3.TabIndex = 8;
-            this.fourCard3.Text = "fourCard3";
-            this.fourCard3.Visible = false;
+            this.threeCard1.Location = new System.Drawing.Point(342, 433);
+            this.threeCard1.Multiline = true;
+            this.threeCard1.Name = "threeCard1";
+            this.threeCard1.Size = new System.Drawing.Size(100, 137);
+            this.threeCard1.TabIndex = 3;
+            this.threeCard1.Text = "threeCard1";
+            this.threeCard1.Visible = false;
             // 
             // fourCard4
             // 
@@ -483,45 +469,45 @@
             this.fourCard4.Text = "fourCard4";
             this.fourCard4.Visible = false;
             // 
-            // toolStripButton1
+            // fourCard3
             // 
-            this.toolStripButton1.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.toolStripButton1.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton1.Image")));
-            this.toolStripButton1.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.toolStripButton1.Name = "toolStripButton1";
-            this.toolStripButton1.Size = new System.Drawing.Size(23, 22);
-            this.toolStripButton1.Text = "toolStripButton1";
-            this.toolStripButton1.Click += new System.EventHandler(this.toolStripButton1_Click);
+            this.fourCard3.Location = new System.Drawing.Point(494, 433);
+            this.fourCard3.Multiline = true;
+            this.fourCard3.Name = "fourCard3";
+            this.fourCard3.Size = new System.Drawing.Size(100, 137);
+            this.fourCard3.TabIndex = 8;
+            this.fourCard3.Text = "fourCard3";
+            this.fourCard3.Visible = false;
             // 
-            // fiveCard1
+            // fourCard2
             // 
-            this.fiveCard1.Location = new System.Drawing.Point(236, 433);
-            this.fiveCard1.Multiline = true;
-            this.fiveCard1.Name = "fiveCard1";
-            this.fiveCard1.Size = new System.Drawing.Size(100, 137);
-            this.fiveCard1.TabIndex = 10;
-            this.fiveCard1.Text = "fiveCard1";
-            this.fiveCard1.Visible = false;
+            this.fourCard2.Location = new System.Drawing.Point(388, 433);
+            this.fourCard2.Multiline = true;
+            this.fourCard2.Name = "fourCard2";
+            this.fourCard2.Size = new System.Drawing.Size(100, 137);
+            this.fourCard2.TabIndex = 7;
+            this.fourCard2.Text = "fourCard2";
+            this.fourCard2.Visible = false;
             // 
-            // fiveCard2
+            // fourCard1
             // 
-            this.fiveCard2.Location = new System.Drawing.Point(342, 433);
-            this.fiveCard2.Multiline = true;
-            this.fiveCard2.Name = "fiveCard2";
-            this.fiveCard2.Size = new System.Drawing.Size(100, 137);
-            this.fiveCard2.TabIndex = 11;
-            this.fiveCard2.Text = "fiveCard2";
-            this.fiveCard2.Visible = false;
+            this.fourCard1.Location = new System.Drawing.Point(282, 433);
+            this.fourCard1.Multiline = true;
+            this.fourCard1.Name = "fourCard1";
+            this.fourCard1.Size = new System.Drawing.Size(100, 137);
+            this.fourCard1.TabIndex = 6;
+            this.fourCard1.Text = "fourCard1";
+            this.fourCard1.Visible = false;
             // 
-            // fiveCard4
+            // fiveCard3
             // 
-            this.fiveCard4.Location = new System.Drawing.Point(554, 433);
-            this.fiveCard4.Multiline = true;
-            this.fiveCard4.Name = "fiveCard4";
-            this.fiveCard4.Size = new System.Drawing.Size(100, 137);
-            this.fiveCard4.TabIndex = 13;
-            this.fiveCard4.Text = "fiveCard4";
-            this.fiveCard4.Visible = false;
+            this.fiveCard3.Location = new System.Drawing.Point(448, 433);
+            this.fiveCard3.Multiline = true;
+            this.fiveCard3.Name = "fiveCard3";
+            this.fiveCard3.Size = new System.Drawing.Size(100, 137);
+            this.fiveCard3.TabIndex = 15;
+            this.fiveCard3.Text = "fiveCard3";
+            this.fiveCard3.Visible = false;
             // 
             // fiveCard5
             // 
@@ -533,15 +519,43 @@
             this.fiveCard5.Text = "fiveCard5";
             this.fiveCard5.Visible = false;
             // 
-            // fiveCard3
+            // fiveCard4
             // 
-            this.fiveCard3.Location = new System.Drawing.Point(448, 433);
-            this.fiveCard3.Multiline = true;
-            this.fiveCard3.Name = "fiveCard3";
-            this.fiveCard3.Size = new System.Drawing.Size(100, 137);
-            this.fiveCard3.TabIndex = 15;
-            this.fiveCard3.Text = "fiveCard3";
-            this.fiveCard3.Visible = false;
+            this.fiveCard4.Location = new System.Drawing.Point(554, 433);
+            this.fiveCard4.Multiline = true;
+            this.fiveCard4.Name = "fiveCard4";
+            this.fiveCard4.Size = new System.Drawing.Size(100, 137);
+            this.fiveCard4.TabIndex = 13;
+            this.fiveCard4.Text = "fiveCard4";
+            this.fiveCard4.Visible = false;
+            // 
+            // fiveCard2
+            // 
+            this.fiveCard2.Location = new System.Drawing.Point(342, 433);
+            this.fiveCard2.Multiline = true;
+            this.fiveCard2.Name = "fiveCard2";
+            this.fiveCard2.Size = new System.Drawing.Size(100, 137);
+            this.fiveCard2.TabIndex = 11;
+            this.fiveCard2.Text = "fiveCard2";
+            this.fiveCard2.Visible = false;
+            // 
+            // fiveCard1
+            // 
+            this.fiveCard1.Location = new System.Drawing.Point(236, 433);
+            this.fiveCard1.Multiline = true;
+            this.fiveCard1.Name = "fiveCard1";
+            this.fiveCard1.Size = new System.Drawing.Size(100, 137);
+            this.fiveCard1.TabIndex = 10;
+            this.fiveCard1.Text = "fiveCard1";
+            this.fiveCard1.Visible = false;
+            // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(292, 56);
+            this.textBox1.Multiline = true;
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(280, 150);
+            this.textBox1.TabIndex = 16;
             // 
             // Form1
             // 
@@ -623,6 +637,7 @@
         private System.Windows.Forms.TextBox fiveCard1;
         private System.Windows.Forms.TextBox fiveCard3;
         public System.Windows.Forms.TextBox oneCard1;
+        private System.Windows.Forms.TextBox textBox1;
     }
 }
 
